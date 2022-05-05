@@ -1,6 +1,6 @@
-This project is designed to me how to create a Recipe using HTML.
+## Recipe Book
 
-Reflection Post-Project:
--
--
--
+A simple recipe book. An index page with references to a few recipes.
+HTML/CSS
+
+### Odin Project Course Content

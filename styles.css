@@ -1,20 +1,84 @@
-p {
+/* Index Styles */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2em;
+    border: 2px solid lightgreen;
+    background-color: rgba(144, 238, 144, 0.295);
+    border-radius: 5px;
+    width: 30%;  
+}
+.item {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    font-size: 2em;
+        
+}
+.link {
+    color: gray;
+    text-decoration: none;
+    border: 1px solid lightseagreen;
+    background-color: rgba(32, 178, 171, 0.459);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;  
+}
+.link:hover {
+    color: black;
+    border: 1px solid rgb(5, 85, 81);    
+}
+
+
+/* Recipe Page Styles */
+.body-container {
+    display: flex;
+    justify-content: center;
+}
+.recipe-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2em;
+    border: 2px solid lightgreen;
+    background-color: rgba(144, 238, 144, 0.295);
+    border-radius: 5px;
+    width: 40%;
+}
+
+p {    
     color: grey;
-    background-color:khaki;
+    border: 1px solid khaki;
+    background-color:rgba(240, 230, 140, 0.582);
+    width: 80%;
+    font-size: 1.2em;
+}
+li {
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 5px;
 }
 
 img {
     width: 300;
     height: 350;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+    border: 2px solid lightgreen;
+    border-radius: 10px;
 }
-
-li {
-    font-style: italic;
+h4 {
+    font-size: 2em;
+    margin: 5px;
+    font-family: 'Arial Narrow Bold', sans-serif;
 }
 
 h1 {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 3em;
     text-align: center;
+}
+
+h3 {
+    font-weight: 100;
 }
